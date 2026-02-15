@@ -36,17 +36,22 @@ const DetailedPage = () => {
   }, [location]);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="bg-background">
       <Navigation />
-      <div className="pt-24 pb-8 container-narrow">
+      {/* Back Button - top left under navbar */}
+      <div className="container mx-auto px-6 pt-24 pb-6">
         <Link to="/">
-          <Button variant="ghost" className="group">
-            <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform" />
+          <Button
+            variant="ghost"
+            className="flex items-center gap-2 hover:gap-3 transition-all"
+          >
+            <ArrowLeft className="h-4 w-4" />
             Back to Home
           </Button>
         </Link>
       </div>
-      <div className="pt-28">
+      {/* Main Content Wrapper */}
+      <div className="space-y-24">
         {/* Architect Section */}
 
         <section id="architect" className="pb-24 container-narrow">
@@ -82,14 +87,14 @@ const DetailedPage = () => {
                 philosophy centers on creating spaces that harmonize with their
                 environment while pushing the boundaries of modern design.
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-6">
+              {/* <p className="text-muted-foreground leading-relaxed mb-6">
                 After graduating from NCA Lahore and completing his masters at
                 the Architectural Association in London, Ahmad returned to
                 Pakistan with a mission to redefine contemporary Pakistani
                 architecture. His work seamlessly blends traditional
                 craftsmanship with cutting-edge design principles.
-              </p>
-              <blockquote className="border-l-2 border-primary pl-6 my-8">
+              </p> */}
+              {/* <blockquote className="border-l-2 border-primary pl-6 my-8">
                 <p className="text-lg italic text-foreground/90">
                   "Architecture is the thoughtful making of space. It is not
                   about buildings; it is about creating moments where concrete,
@@ -98,7 +103,7 @@ const DetailedPage = () => {
                 <footer className="mt-2 text-sm text-muted-foreground">
                   — Ahmad Hassan
                 </footer>
-              </blockquote>
+              </blockquote> */}
               <div className="flex flex-wrap gap-4">
                 <div className="px-4 py-2 bg-secondary/50 rounded-lg">
                   <p className="text-sm text-muted-foreground">Education</p>
