@@ -78,7 +78,7 @@ const DetailedPage = () => {
                 Principal Architect
               </p>
               <h1 className="font-heading text-4xl md:text-5xl font-medium mb-6">
-                Ahmad Hassan
+                Arshad Ahmed
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 With over two decades of experience in architectural design and
