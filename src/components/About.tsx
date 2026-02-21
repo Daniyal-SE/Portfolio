@@ -73,10 +73,10 @@ const About = () => {
               About Us
             </p>
             <h2 className="font-heading text-4xl md:text-5xl font-medium mb-6">
-              Building Dreams Into Reality
+              Build Your Dreams Into Reality
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              With over 15 years of experience in architecture and construction,
+              With over 17 years of experience in architecture and construction,
               we have established ourselves as a trusted name in creating spaces
               that inspire. Our team combines technical expertise with creative
               vision to deliver exceptional results for both residential and
