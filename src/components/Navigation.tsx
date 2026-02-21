@@ -56,7 +56,7 @@ const Navigation = () => {
             <img src="/logo.png" alt="Logo" className="h-10" />
             {/* Right Text */}
             <span className="text-sm md:text-base font-medium tracking-wide text-foreground uppercase">
-              ARSHAD AHMED <span className="text-primary">| ARCHITECT</span>
+              RANA BUILDER <span className="text-primary">| ARCHITECT</span>
             </span>
           </Link>
 

@@ -30,10 +30,11 @@ const services = [
     description:
       "Concept development, space planning, material and lighting selection for residential and commercial interiors.",
     features: [
+      "Furniture Layout",
       "Space Planning",
       "Material Selection",
-      "Lighting Design",
-      "Online Consultation",
+      "Mood Boards",
+      "Illumination Plan",
     ],
     image:
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop",
@@ -42,13 +43,8 @@ const services = [
     icon: TreePine,
     title: "Landscape Design",
     description:
-      "Outdoor space planning integrating natural elements with architecture for sustainable, climate-responsive design.",
-    features: [
-      "Garden Design",
-      "Outdoor Planning",
-      "Sustainable Solutions",
-      "Property Enhancement",
-    ],
+      "Whether you are looking at a classic painting of a country cottage or planning the curb appeal for a modern home, residential landscaping is the art of balancing nature with architecture",
+    features: ["Garden Design", "Softscape Planning", "Hardscape Design"],
     image:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2000&auto=format&fit=crop",
   },
