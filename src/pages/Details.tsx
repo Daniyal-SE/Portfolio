@@ -78,11 +78,11 @@ const DetailedPage = () => {
                 Principal Architect
               </p>
               <h1 className="font-heading text-4xl md:text-5xl font-medium mb-6">
-                Arshad Ahmed
+                Arshaad Ahmed
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 With over two decades of experience in architectural design and
-                construction, Ahmad Hassan has established himself as a
+                construction, Arshaad Ahmed has established himself as a
                 visionary leader in Pakistan's architectural landscape. His
                 philosophy centers on creating spaces that harmonize with their
                 environment while pushing the boundaries of modern design.
@@ -106,15 +106,15 @@ const DetailedPage = () => {
               </blockquote> */}
               <div className="flex flex-wrap gap-4">
                 <div className="px-4 py-2 bg-secondary/50 rounded-lg">
-                  <p className="text-sm text-muted-foreground">Education</p>
-                  <p className="font-medium">AA London, NCA Lahore</p>
+                  <p className="text-sm text-muted-foreground">Company Reg.</p>
+                  <p className="font-medium">PCATP, IAP, PEC</p>
                 </div>
-                <div className="px-4 py-2 bg-secondary/50 rounded-lg">
+                {/* <div className="px-4 py-2 bg-secondary/50 rounded-lg">
                   <p className="text-sm text-muted-foreground">
                     Specialization
                   </p>
                   <p className="font-medium">Modern Residential</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </motion.div>
@@ -585,8 +585,8 @@ const DetailedPage = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8 rounded-lg bg-secondary/30 border border-border">
               {[
-                { number: "15+", label: "Years Experience" },
-                { number: "200+", label: "Projects Completed" },
+                // { number: "15+", label: "Years Experience" },
+                // { number: "200+", label: "Projects Completed" },
                 { number: "25+", label: "Team Members" },
                 { number: "50+", label: "Awards & Recognition" },
               ].map((stat) => (
