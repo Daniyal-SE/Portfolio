@@ -46,7 +46,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
             </div>
             {/* Stats Overlay */}
-            <div className="absolute bottom-8 left-8 right-8 grid grid-cols-2 gap-4">
+            {/* <div className="absolute bottom-8 left-8 right-8 grid grid-cols-2 gap-4">
               <div className="p-4 rounded-lg bg-card/90 backdrop-blur-md border border-border">
                 <p className="font-heading text-3xl text-primary">15+</p>
                 <p className="text-sm text-muted-foreground">
@@ -59,7 +59,7 @@ const About = () => {
                   Projects Completed
                 </p>
               </div>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Content */}
