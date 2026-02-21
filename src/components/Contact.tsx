@@ -7,9 +7,13 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 
 const socialLinks = [
-  { icon: Mail, label: "Email", href: "mailto:contact@architect.com" },
+  { icon: Mail, label: "Email", href: "mailto:jugnuzulfi4855@gmail.com" },
   { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
+  {
+    icon: Instagram,
+    label: "Instagram",
+    href: "https://www.instagram.com/architect_arshaad_ahmed?igsh=MWQ4YnVncnN2d3Rhaw==",
+  },
   {
     icon: () => (
       <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
@@ -17,7 +21,7 @@ const socialLinks = [
       </svg>
     ),
     label: "TikTok",
-    href: "https://tiktok.com",
+    href: "https://www.tiktok.com/@ar.arshaad_ahmed?_r=1&_t=ZS-946s19La9hg",
   },
 ];
 
